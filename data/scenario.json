@@ -1,0 +1,90 @@
+{
+  "scenario_name": "BridgePath Adult Learning",
+  "status": "Fictional nonprofit and illustrative planning assumptions, created November 20, 2026",
+  "duration_weeks": 8,
+  "cash_ceiling_cents": 150000,
+  "fixed_setup_cost_cents": 20000,
+  "new_learner_seats": 24,
+  "support_reserve_per_seat_cents": 2000,
+  "staff_hours_ceiling": "60",
+  "fixed_setup_hours": "6",
+  "appointment_slots": 30,
+  "appointment_hours": "0.75",
+  "triage_hours_per_inquiry": "0.25",
+  "planning_start_ceiling": "18",
+  "assumptions": [
+    "Every inquiry is unique across channels after deduplication and assigned to its first recorded source.",
+    "All rates are invented planning hypotheses, not observations from Mercy Education Project or industry benchmarks.",
+    "Program fit concerns the fictional program's learning goals, schedule and service area; the model contains no individual admission decisions.",
+    "Each outreach unit has the same expected response within its small stated cap. Saturation and interaction effects are unknown.",
+    "Every booked intake reserves 45 minutes, including appointments that are missed. Every inquiry takes 15 minutes of triage.",
+    "The forecast assumes at most one booked intake per inquiry and all starts occur within eight weeks. Reschedules, extra visits and delayed starts require revised inputs.",
+    "Staff time comes from an existing allocation and is constrained separately. The cash figure is not a fully loaded economic cost.",
+    "The support reserve is held for all 24 seats, including unfilled seats. It is an allocation, not evidence of money spent.",
+    "The 18-start planning ceiling preserves room below the 24-seat operational cap. Expected values do not enforce actual bookings or guarantee outcomes.",
+    "Instructional staffing for the 24 seats is already funded and outside this outreach and intake model. Retention and GED completion are not estimated."
+  ],
+  "channels": [
+    {
+      "id": "partner_referrals",
+      "name": "Partner referrals",
+      "unit_description": "One partner activation with a shared referral brief and coordinator follow-up",
+      "max_units": 3,
+      "cost_per_unit_cents": 12000,
+      "outreach_hours_per_unit": "2",
+      "inquiries_per_unit": 12,
+      "program_fit_rate": "0.80",
+      "booking_rate": "0.75",
+      "attendance_rate": "0.80",
+      "start_rate": "0.80"
+    },
+    {
+      "id": "community_events",
+      "name": "Community events",
+      "unit_description": "One small information session including preparation, delivery and follow-up",
+      "max_units": 2,
+      "cost_per_unit_cents": 35000,
+      "outreach_hours_per_unit": "6",
+      "inquiries_per_unit": 18,
+      "program_fit_rate": "0.75",
+      "booking_rate": "0.70",
+      "attendance_rate": "0.75",
+      "start_rate": "0.80"
+    },
+    {
+      "id": "paid_search",
+      "name": "Paid search test",
+      "unit_description": "One capped $300 search campaign with a single learner inquiry page",
+      "max_units": 3,
+      "cost_per_unit_cents": 30000,
+      "outreach_hours_per_unit": "1",
+      "inquiries_per_unit": 20,
+      "program_fit_rate": "0.45",
+      "booking_rate": "0.60",
+      "attendance_rate": "0.65",
+      "start_rate": "0.75"
+    },
+    {
+      "id": "print_distribution",
+      "name": "Local print outreach",
+      "unit_description": "One small distribution round through approved community locations",
+      "max_units": 2,
+      "cost_per_unit_cents": 10000,
+      "outreach_hours_per_unit": "2.5",
+      "inquiries_per_unit": 8,
+      "program_fit_rate": "0.55",
+      "booking_rate": "0.60",
+      "attendance_rate": "0.65",
+      "start_rate": "0.75"
+    }
+  ],
+  "comparison_plans": {
+    "event_led_alternative": {"partner_referrals": 2, "community_events": 1, "paid_search": 0, "print_distribution": 2},
+    "paid_search_heavier": {"partner_referrals": 1, "community_events": 0, "paid_search": 2, "print_distribution": 1}
+  },
+  "sensitivity": {
+    "name": "Lower partner appointment attendance",
+    "channel_id": "partner_referrals",
+    "attendance_rate": "0.60"
+  }
+}
