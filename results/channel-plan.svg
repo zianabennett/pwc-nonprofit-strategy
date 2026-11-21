@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="660" viewBox="0 0 1000 660" role="img" aria-labelledby="title desc">
+<title id="title">Outreach tied to intake capacity</title>
+<desc id="desc">Fictional BridgePath planning model. Selected mix forecasts 17.74 first-session starts with $1,440.00 allocated and 53.73 staff hours. Lower partner attendance changes the preferred channel mix.</desc>
+<rect width="1000" height="660" rx="20" fill="#f6f8f4"/>
+<g font-family="Arial, sans-serif" fill="#193d35">
+<text x="32" y="44" font-size="26" font-weight="700">Outreach tied to intake capacity</text>
+<text x="32" y="72" font-size="15" fill="#52645a">BridgePath Adult Learning · Fictional eight-week planning exercise</text>
+<rect x="32" y="100" width="288" height="104" rx="10" fill="#e3ebdf"/><text x="50" y="146" font-size="30" font-weight="700">17.74</text><text x="50" y="177" font-size="14">Expected first-session starts</text>
+<rect x="344" y="100" width="288" height="104" rx="10" fill="#e3ebdf"/><text x="362" y="146" font-size="30" font-weight="700">$1,440.00</text><text x="362" y="177" font-size="14">Allocated cash, including reserve</text>
+<rect x="656" y="100" width="288" height="104" rx="10" fill="#e3ebdf"/><text x="674" y="146" font-size="30" font-weight="700">53.73 h</text><text x="674" y="177" font-size="14">Outreach and intake staff time</text>
+<text x="32" y="246" font-size="18" font-weight="700">Expected starts by selected channel</text>
+<text x="32" y="303" font-size="16">Partner referrals</text><rect x="260" y="280" width="590" height="34" rx="5" fill="#e3e8e2"/>
+<rect x="260" y="280" width="582.583" height="34" rx="5" fill="#2d6a58"/>
+<text x="870" y="303" font-size="16" font-weight="700">13.82</text>
+<text x="32" y="356" font-size="16">Community events</text><rect x="260" y="333" width="590" height="34" rx="5" fill="#e3e8e2"/>
+<text x="870" y="356" font-size="16" font-weight="700">0.00</text>
+<text x="32" y="409" font-size="16">Paid search test</text><rect x="260" y="386" width="590" height="34" rx="5" fill="#e3e8e2"/>
+<rect x="260" y="386" width="110.941" height="34" rx="5" fill="#2d6a58"/>
+<text x="870" y="409" font-size="16" font-weight="700">2.63</text>
+<text x="32" y="462" font-size="16">Local print outreach</text><rect x="260" y="439" width="590" height="34" rx="5" fill="#e3e8e2"/>
+<rect x="260" y="439" width="54.238" height="34" rx="5" fill="#2d6a58"/>
+<text x="870" y="462" font-size="16" font-weight="700">1.29</text>
+<text x="32" y="509" font-size="13" fill="#52645a">Bar scale 0 to 14 starts · Intake uses 29.64 of 30 planning slots.</text>
+<rect x="32" y="538" width="936" height="86" rx="10" fill="#f2e4ce"/>
+<text x="50" y="565" font-size="16" font-weight="700">A lower partner attendance assumption changes the recommendation</text>
+<text x="50" y="590" font-size="15">Selected mix at 60% partner attendance: 14.29 starts. Revised mix: 15.16.</text>
+<text x="50" y="611" font-size="13">Illustrative forecasts only. Program delivery, retention and GED completion are outside this model.</text>
+</g></svg>

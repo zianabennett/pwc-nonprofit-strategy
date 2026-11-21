@@ -1,0 +1,401 @@
+{
+  "scenario": "BridgePath Adult Learning",
+  "status": "Fictional nonprofit and illustrative planning assumptions, created November 20, 2026",
+  "method": "Enumerate integer channel units; maximize expected first-session starts subject to all planning limits.",
+  "considered_plans": 144,
+  "feasible_plans": 43,
+  "selected": {
+    "units": {
+      "partner_referrals": 3,
+      "community_events": 0,
+      "paid_search": 1,
+      "print_distribution": 1
+    },
+    "channels": [
+      {
+        "id": "partner_referrals",
+        "name": "Partner referrals",
+        "units": 3,
+        "outreach_cost_cents": 36000,
+        "staff_hours": "31.2",
+        "inquiries": "36",
+        "program_fit": "28.8",
+        "booked": "21.6",
+        "attended": "17.28",
+        "starts": "13.824"
+      },
+      {
+        "id": "community_events",
+        "name": "Community events",
+        "units": 0,
+        "outreach_cost_cents": 0,
+        "staff_hours": "0",
+        "inquiries": "0",
+        "program_fit": "0",
+        "booked": "0",
+        "attended": "0",
+        "starts": "0"
+      },
+      {
+        "id": "paid_search",
+        "name": "Paid search test",
+        "units": 1,
+        "outreach_cost_cents": 30000,
+        "staff_hours": "10.05",
+        "inquiries": "20",
+        "program_fit": "9",
+        "booked": "5.4",
+        "attended": "3.51",
+        "starts": "2.6325"
+      },
+      {
+        "id": "print_distribution",
+        "name": "Local print outreach",
+        "units": 1,
+        "outreach_cost_cents": 10000,
+        "staff_hours": "6.48",
+        "inquiries": "8",
+        "program_fit": "4.4",
+        "booked": "2.64",
+        "attended": "1.716",
+        "starts": "1.287"
+      }
+    ],
+    "funnel": {
+      "inquiries": "64",
+      "program_fit": "42.2",
+      "booked": "29.64",
+      "attended": "22.506",
+      "starts": "17.7435"
+    },
+    "outreach_cost_cents": 76000,
+    "setup_cost_cents": 20000,
+    "support_reserve_cents": 48000,
+    "cash_allocated_cents": 144000,
+    "cash_remaining_cents": 6000,
+    "staff_hours": "53.73",
+    "staff_hours_remaining": "6.27",
+    "appointment_slots_remaining": "0.36",
+    "learner_seat_headroom": "6.2565",
+    "allocated_dollars_per_expected_start": "81.15647983768704032462591935",
+    "feasible": true,
+    "violations": []
+  },
+  "comparisons": {
+    "event_led_alternative": {
+      "units": {
+        "partner_referrals": 2,
+        "community_events": 1,
+        "paid_search": 0,
+        "print_distribution": 2
+      },
+      "channels": [
+        {
+          "id": "partner_referrals",
+          "name": "Partner referrals",
+          "units": 2,
+          "outreach_cost_cents": 24000,
+          "staff_hours": "20.8",
+          "inquiries": "24",
+          "program_fit": "19.2",
+          "booked": "14.4",
+          "attended": "11.52",
+          "starts": "9.216"
+        },
+        {
+          "id": "community_events",
+          "name": "Community events",
+          "units": 1,
+          "outreach_cost_cents": 35000,
+          "staff_hours": "17.5875",
+          "inquiries": "18",
+          "program_fit": "13.5",
+          "booked": "9.45",
+          "attended": "7.0875",
+          "starts": "5.67"
+        },
+        {
+          "id": "paid_search",
+          "name": "Paid search test",
+          "units": 0,
+          "outreach_cost_cents": 0,
+          "staff_hours": "0",
+          "inquiries": "0",
+          "program_fit": "0",
+          "booked": "0",
+          "attended": "0",
+          "starts": "0"
+        },
+        {
+          "id": "print_distribution",
+          "name": "Local print outreach",
+          "units": 2,
+          "outreach_cost_cents": 20000,
+          "staff_hours": "12.96",
+          "inquiries": "16",
+          "program_fit": "8.8",
+          "booked": "5.28",
+          "attended": "3.432",
+          "starts": "2.574"
+        }
+      ],
+      "funnel": {
+        "inquiries": "58",
+        "program_fit": "41.5",
+        "booked": "29.13",
+        "attended": "22.0395",
+        "starts": "17.46"
+      },
+      "outreach_cost_cents": 79000,
+      "setup_cost_cents": 20000,
+      "support_reserve_cents": 48000,
+      "cash_allocated_cents": 147000,
+      "cash_remaining_cents": 3000,
+      "staff_hours": "57.3475",
+      "staff_hours_remaining": "2.6525",
+      "appointment_slots_remaining": "0.87",
+      "learner_seat_headroom": "6.54",
+      "allocated_dollars_per_expected_start": "84.1924398625429553264604811",
+      "feasible": true,
+      "violations": []
+    },
+    "paid_search_heavier": {
+      "units": {
+        "partner_referrals": 1,
+        "community_events": 0,
+        "paid_search": 2,
+        "print_distribution": 1
+      },
+      "channels": [
+        {
+          "id": "partner_referrals",
+          "name": "Partner referrals",
+          "units": 1,
+          "outreach_cost_cents": 12000,
+          "staff_hours": "10.4",
+          "inquiries": "12",
+          "program_fit": "9.6",
+          "booked": "7.2",
+          "attended": "5.76",
+          "starts": "4.608"
+        },
+        {
+          "id": "community_events",
+          "name": "Community events",
+          "units": 0,
+          "outreach_cost_cents": 0,
+          "staff_hours": "0",
+          "inquiries": "0",
+          "program_fit": "0",
+          "booked": "0",
+          "attended": "0",
+          "starts": "0"
+        },
+        {
+          "id": "paid_search",
+          "name": "Paid search test",
+          "units": 2,
+          "outreach_cost_cents": 60000,
+          "staff_hours": "20.1",
+          "inquiries": "40",
+          "program_fit": "18",
+          "booked": "10.8",
+          "attended": "7.02",
+          "starts": "5.265"
+        },
+        {
+          "id": "print_distribution",
+          "name": "Local print outreach",
+          "units": 1,
+          "outreach_cost_cents": 10000,
+          "staff_hours": "6.48",
+          "inquiries": "8",
+          "program_fit": "4.4",
+          "booked": "2.64",
+          "attended": "1.716",
+          "starts": "1.287"
+        }
+      ],
+      "funnel": {
+        "inquiries": "60",
+        "program_fit": "32",
+        "booked": "20.64",
+        "attended": "14.496",
+        "starts": "11.16"
+      },
+      "outreach_cost_cents": 82000,
+      "setup_cost_cents": 20000,
+      "support_reserve_cents": 48000,
+      "cash_allocated_cents": 150000,
+      "cash_remaining_cents": 0,
+      "staff_hours": "42.98",
+      "staff_hours_remaining": "17.02",
+      "appointment_slots_remaining": "9.36",
+      "learner_seat_headroom": "12.84",
+      "allocated_dollars_per_expected_start": "134.4086021505376344086021505",
+      "feasible": true,
+      "violations": []
+    }
+  },
+  "sensitivity": {
+    "change": {
+      "name": "Lower partner appointment attendance",
+      "channel_id": "partner_referrals",
+      "attendance_rate": "0.60"
+    },
+    "original_mix": {
+      "units": {
+        "partner_referrals": 3,
+        "community_events": 0,
+        "paid_search": 1,
+        "print_distribution": 1
+      },
+      "channels": [
+        {
+          "id": "partner_referrals",
+          "name": "Partner referrals",
+          "units": 3,
+          "outreach_cost_cents": 36000,
+          "staff_hours": "31.2",
+          "inquiries": "36",
+          "program_fit": "28.8",
+          "booked": "21.6",
+          "attended": "12.96",
+          "starts": "10.368"
+        },
+        {
+          "id": "community_events",
+          "name": "Community events",
+          "units": 0,
+          "outreach_cost_cents": 0,
+          "staff_hours": "0",
+          "inquiries": "0",
+          "program_fit": "0",
+          "booked": "0",
+          "attended": "0",
+          "starts": "0"
+        },
+        {
+          "id": "paid_search",
+          "name": "Paid search test",
+          "units": 1,
+          "outreach_cost_cents": 30000,
+          "staff_hours": "10.05",
+          "inquiries": "20",
+          "program_fit": "9",
+          "booked": "5.4",
+          "attended": "3.51",
+          "starts": "2.6325"
+        },
+        {
+          "id": "print_distribution",
+          "name": "Local print outreach",
+          "units": 1,
+          "outreach_cost_cents": 10000,
+          "staff_hours": "6.48",
+          "inquiries": "8",
+          "program_fit": "4.4",
+          "booked": "2.64",
+          "attended": "1.716",
+          "starts": "1.287"
+        }
+      ],
+      "funnel": {
+        "inquiries": "64",
+        "program_fit": "42.2",
+        "booked": "29.64",
+        "attended": "18.186",
+        "starts": "14.2875"
+      },
+      "outreach_cost_cents": 76000,
+      "setup_cost_cents": 20000,
+      "support_reserve_cents": 48000,
+      "cash_allocated_cents": 144000,
+      "cash_remaining_cents": 6000,
+      "staff_hours": "53.73",
+      "staff_hours_remaining": "6.27",
+      "appointment_slots_remaining": "0.36",
+      "learner_seat_headroom": "9.7125",
+      "allocated_dollars_per_expected_start": "100.7874015748031496062992126",
+      "feasible": true,
+      "violations": []
+    },
+    "reoptimized_mix": {
+      "units": {
+        "partner_referrals": 2,
+        "community_events": 1,
+        "paid_search": 0,
+        "print_distribution": 2
+      },
+      "channels": [
+        {
+          "id": "partner_referrals",
+          "name": "Partner referrals",
+          "units": 2,
+          "outreach_cost_cents": 24000,
+          "staff_hours": "20.8",
+          "inquiries": "24",
+          "program_fit": "19.2",
+          "booked": "14.4",
+          "attended": "8.64",
+          "starts": "6.912"
+        },
+        {
+          "id": "community_events",
+          "name": "Community events",
+          "units": 1,
+          "outreach_cost_cents": 35000,
+          "staff_hours": "17.5875",
+          "inquiries": "18",
+          "program_fit": "13.5",
+          "booked": "9.45",
+          "attended": "7.0875",
+          "starts": "5.67"
+        },
+        {
+          "id": "paid_search",
+          "name": "Paid search test",
+          "units": 0,
+          "outreach_cost_cents": 0,
+          "staff_hours": "0",
+          "inquiries": "0",
+          "program_fit": "0",
+          "booked": "0",
+          "attended": "0",
+          "starts": "0"
+        },
+        {
+          "id": "print_distribution",
+          "name": "Local print outreach",
+          "units": 2,
+          "outreach_cost_cents": 20000,
+          "staff_hours": "12.96",
+          "inquiries": "16",
+          "program_fit": "8.8",
+          "booked": "5.28",
+          "attended": "3.432",
+          "starts": "2.574"
+        }
+      ],
+      "funnel": {
+        "inquiries": "58",
+        "program_fit": "41.5",
+        "booked": "29.13",
+        "attended": "19.1595",
+        "starts": "15.156"
+      },
+      "outreach_cost_cents": 79000,
+      "setup_cost_cents": 20000,
+      "support_reserve_cents": 48000,
+      "cash_allocated_cents": 147000,
+      "cash_remaining_cents": 3000,
+      "staff_hours": "57.3475",
+      "staff_hours_remaining": "2.6525",
+      "appointment_slots_remaining": "0.87",
+      "learner_seat_headroom": "8.844",
+      "allocated_dollars_per_expected_start": "96.99129057798891528107680127",
+      "feasible": true,
+      "violations": []
+    }
+  }
+}
